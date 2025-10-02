@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="book.css">
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+
+    <link rel="icon" href="../asset/homepage/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-about"> 
+
+    <header class="container-fluid text-white p-0">
+        <nav class=" d-lg-flex d-none justify-content-around align-items-center px-3 py-1 top-bg text-white">
+            <ul class="d-inline-flex list-unstyled mb-0 font-dmsans">
+                <li class="d-flex align-items-center mx-2">
+                    <iconify-icon icon="line-md:phone" width="24" height="24"></iconify-icon>
+                    (414) 857 - 0107
+                </li>
+                <li class="d-flex align-items-center mx-2">
+                    <iconify-icon icon="mdi:email-outline" width="24" height="24"></iconify-icon>
+                    yummy@bistrobliss
+                </li>
+            </ul>
+            <ul class="d-inline-flex list-unstyled mb-0">
+                <li class="mx-1">
+                    <a href="https://x.com/login?" target="_blank" class="text-decoration-none text-reset">
+                        <iconify-icon icon="et:twitter" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+
+                <li class="mx-1">
+                    <a href="https://www.facebook.com/login" target="_blank" class="text-decoration-none text-reset">
+                        <iconify-icon icon="circum:facebook" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+                <li class="mx-1">
+                    <a href="https://www.instagram.com/accounts/login/"  target="_blank" class="text-decoration-none text-reset">
+                        <iconify-icon icon="iconoir:instagram" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+                <li class="mx-1">
+                     <a href="https://github.com/login"  target="_blank" class="text-decoration-none text-reset">
+                    <iconify-icon icon="arcticons:github" width="24" height="24"></iconify-icon>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- SMALL SCREEN NAVBAR (toggle version) -->
+        <nav class="navbar navbar-expand-lg bg-white d-lg-none px-3">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../asset/homepage/logo.png" alt="">
+                <h5 class="ms-2 text-black mb-0 font-pd"><i>Bistro Bliss</i></h5>
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mobileNavbar"
+                    aria-controls="mobileNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible links -->
+            <div class="collapse navbar-collapse" id="mobileNavbar">
+                <ul class="navbar-nav ms-auto font-dmsans">
+                <li class="nav-item"><a href="../homepage/homepage.html" class="nav-link fw-600 ">Home</a></li>
+                <li class="nav-item"><a href="../about/about.html" class="nav-link fw-600">About</a></li>
+                <li class="nav-item"><a href="../menu/menu.html" class="nav-link fw-600">Menu</a></li>
+                <li class="nav-item"><a href="../blog/blog.html" class="nav-link fw-600">Pages</a></li>
+                <li class="nav-item"><a href="../contact/contact.html" class="nav-link fw-600">Contact</a></li>
+                </ul>
+                <button class="btn-css ms-3"><a href="../book/book.html" class="text-decoration-none text-dark fw-bold">Book A Table</a></button>
+            </div>
+        </nav>
+
+
+
+        <!-- Main Navbar -->
+
+        <nav class="container d-none d-lg-flex justify-content-between align-items-center my-2 px-3">
+            <ul class="d-flex align-items-center list-unstyled mb-2 logo-font-pd">
+                <li class="d-inline-flex align-items-center">
+                    <img src="../asset/homepage/logo.png" alt="">
+                    <h5 class="ms-2 text-black"><i>Bistro Bliss</i></h5>
+                </li>
+            </ul>
+            <ul class="d-flex list-unstyled mb-0 font-dmsans justify-content-between">
+                <li><a href="../homepage/homepage.html" class="text-decoration-none text-dark px-2 py-2 fw-600 ">Home</a></li>
+                <li><a href="../about/about.html"  class="text-decoration-none text-dark px-2 py-2 fw-600 ">About</a></li>
+                <li><a href="../menu/menu.html" class="text-decoration-none text-dark px-2 py-2 fw-600 ">Menu</a></li>
+                <li><a href="../blog/blog.html" class="text-decoration-none text-dark px-2 py-2 fw-600">Pages</a></li>
+                <li><a href="../contact/contact.html" class="text-decoration-none text-dark px-2 py-2 fw-600">Contact</a></li>
+            </ul>
+            <div class="me-3">
+                <button class="btn-css"><a href="../book/book.html" class="text-decoration-none text-maroon fw-bold">Book A Table</a></button>
+            </div>
+        </nav>
+    </header>
+     
+    <!--Main body -->
+<section class="py-5 text-center bg-light position-relative">
+    <div class="container mx-auto">
+                    <!-- heading -->
+        <h1 class="font-pd fs-75 mb-4" >Book A Table</h1>
+        <p class="font-dmsans fw-light text-muted mb-5">We consider all the drivers of change gives you the components <br> you need to change to create a truly happens.</p>
+                     <!-- map -->
+        <div class="map-bg position-absolute">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0860929021713!2d-122.42177868468094!3d37.77492927975985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f9a6c2b1%3A0x46a3a5b1eae5b6e4!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1633090573748!5m2!1sen!2sus" 
+            width="100%" 
+            height="400px">
+            </iframe>
+        </div>
+
+                    <!-- form -->
+        <section class="bg-white p-4 p-md-5 z-2 rounded shadow-lg mx-auto my-auto" style="max-width: 700px;">
+            <form class="row g-3">
+
+                <div class="col-md-6 font-dmsans fw-bold">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 font-dmsans fw-bold">
+                    <label class="form-label ">Time</label>
+                    <input type="time" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 font-dmsans fw-bold">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                </div>
+
+                <div class="col-md-6 font-dmsans fw-bold">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-control" placeholder="x-xxx-xxx-xxxx" required>
+                </div>
+
+                <div class="col-12 font-dmsans fw-bold">
+                    <label class="form-label">Total Person</label>
+                    <select class="form-select" required>
+                        <option>1 Person</option>
+                        <option>2 Persons</option>
+                        <option>3 Persons</option>
+                        <option>4+ Persons</option>
+                    </select>
+                </div>
+
+                <div class="col-12 text-center ">
+                    <button type="submit" class="btn w-100 py-2 rounded-pill btn-bg-maroon text-white fw-bold font-dmsans ">
+                        Book A Table
+                    </button>
+                </div>
+            </form>
+        </section>
+  </div>
+</section>
+
+
+                <!-- footer -->
+<footer class="footer bg-dark text-white pt-4 px-3">
+  <div class="container">
+    <div class="row gy-3">
+
+      <!-- Brand -->
+      <div class="col-12 col-md-4">
+        <div class="d-flex align-items-center gap-2 mb-2">
+          <img src="../asset/homepage/logowhite.png" alt="Bistro Bliss" width="40">
+          <h5>Bistro Bliss</h5>
+        </div>
+        <p class="small"style="color: #ADB29E;">
+          In the new era of technology we look in the future with certainty and pride for our company.
+        </p>
+        <div class="d-flex gap-3">
+          <iconify-icon icon="ri:twitter-fill" width="20" class="text-white"></iconify-icon>
+          <iconify-icon icon="ri:facebook-fill" width="20" class="text-white"></iconify-icon>
+          <iconify-icon icon="mingcute:instagram-line" width="20" class="text-white"></iconify-icon>
+          <iconify-icon icon="ri:github-fill" width="20" class="text-white"></iconify-icon>
+        </div>
+      </div>
+
+      <!-- Pages -->
+      <div class="col-6 col-md-2">
+        <h6 class="fw-bold mb-3">Pages</h6>
+        <ul class="list-unstyled small" style="color: #ADB29E;" >
+          <li><a href="#" class="text-reset text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">About</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Menu</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Pricing</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Blog</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Delivery</a></li>
+        </ul>
+      </div>
+
+      <!-- Utility Pages -->
+      <div class="col-6 col-md-2">
+        <h6 class="fw-bold mb-3">Utility</h6>
+        <ul class="list-unstyled small  " style="color: #ADB29E;">
+        <li> <a href="#" class="text-reset text-decoration-none">Start Here</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Styleguide</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Password Protected</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">404 Not Found</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Licenses</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Changelog</a></li>
+        </ul>
+      </div>
+
+      <!-- Instagram -->
+      <div class="col-12 col-md-4">
+        <h6 class="fw-bold mb-3">Instagram</h6>
+        <div class="row g-2">
+          <div class="col-6"><img src="../asset/homepage/egg.png" class="img-fluid rounded" alt=""></div>
+          <div class="col-6"><img src="../asset/homepage/fries.png" class="img-fluid rounded" alt=""></div>
+          <div class="col-6"><img src="../asset/homepage/footer2.png" class="img-fluid rounded" alt=""></div>
+          <div class="col-6"><img src="../asset/homepage/pancakes.png" class="img-fluid rounded" alt=""></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

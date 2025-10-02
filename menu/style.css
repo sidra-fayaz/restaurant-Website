@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+  /* font */
+
+.font-dmsans
+{
+  font-family: DM Sans !important;
+}
+
+.font-pd
+{
+  font-family: playfair display !important;
+  font-weight: lighter;
+  line-height: 2.8125rem;
+  margin-bottom: 0.625rem;
+}
+
+
+ /* common */
+.text-white
+{
+    color: white !important;
+}
+
+.text-maroon
+{
+  color: #AD343E !important;
+}
+
+/* logo */
+
+.logo-font-pd
+{
+  font-family: playfair display;
+  font-style: italic;
+  font-weight:bold;
+}
+
+
+/* top bar */
+.top-bg{background: #474747;}
+
+/* icon */
+.bg-icon-footer
+{
+  background-color: #AD343E;
+  border-radius: 50px;
+  padding: 5px;
+} 
+.bg-icon-white
+{
+  background-color: white;
+  border-radius: 50px;
+  padding: 7px;
+}
+
+/* button  */
+
+.active
+{
+  background: #DBDFD0;
+  border-radius: 34px;
+  padding: 40px;
+} 
+
+.menu-item
+{
+  border-radius: 34px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.menu-active
+{
+  background: #AD343E;
+  color: white;
+  
+}
+
+.btn-bg-maroon
+{
+  background-color: #AD343E !important;
+}
+.btn-css
+{
+ text-decoration: none;
+ white-space: nowrap;     /* Prevent line breaks */
+ display: inline-block;   /* Ensure button behaves properly */ 
+ border-width: 1.5px;
+ border-radius: 118px;
+ padding: 10px;
+ align-items: center;
+ background-color: white;
+ font-weight:600
+}
+
+.b-0
+{
+  border-width: 0px;
+}
+
+/* background */
+
+.bg-about
+{
+  background: #F9F9F7;
+  width: 100%;
+}
+
+.card-bg
+
+{background: #474747;
+}
+
+/* font styling */
+
+.fw-600
+{
+  font-weight: 600;
+}
+.fw-500
+{
+  font-weight: 500px;
+}
+
+.fs-15
+{font-size: 15px;}
+.fs-14
+{
+  font-size: 14px;
+}
+.fs-10
+{
+  font-size: 10px;
+}
+.fs-75
+{
+  font-size: 75px;
+}
+.fs-100
+{
+  font-size: 100px;
+}
+.fs-60
+{
+  font-size: 60px;
+}
+.fs-50
+{
+  font-size: 50px;
+}
+.fs-30
+{
+  font-size: 40px;
+}
+.body 
+{
+    overflow-x: hidden;
+}
+
+.hero-section {
+  background-image: url('../asset/about/bg-about.png'); /* replace with your image */
+  height: 500px; 
+   justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  position: relative;
+  background-size: cover;
+}
+
+/* footer */
+.footer
+{
+  background-color: #474747;
+  padding: 20px;
+  height: 75%;
+}
+
+.bg-map
+{
+  background-image: url(../asset/book/map.png);
+}
+.map-container {
+  margin-top: -150px; /* Pull map upward to start behind form */
+  z-index: 1;
+}
+
+.map-bg {
+  position: absolute;
+  top: 50%; /* Start from middle of section */
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+  position: relative;
+}
