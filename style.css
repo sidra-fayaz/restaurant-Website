@@ -47,7 +47,7 @@
 .top-bg{background: #474747;}
 
 .hero-section {
-  background-image: url('../asset/homepage/bg.png'); /* replace with your image */
+  background-image: url('asset/homepage/bg.png'); 
   background-size: cover;
   background-position: center;
   height: 400px; 
